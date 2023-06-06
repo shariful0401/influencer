@@ -1,0 +1,75 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ddd7d7;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 30px;
+}
+.web-title{
+  font-weight: 900;
+}
+.nav-manu a, i{
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+.second-section{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.start-journey{
+  width: 50%;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+.start-journey img{
+  margin-left: 40px;
+}
+.start-journey a{
+  text-decoration: none;
+  background-color: rgba(224, 44, 109, 1);
+  color: white;
+  padding: 10px 5px 10px 25px;
+  border-radius: 50px;
+}
+             /* logo part  */
+.logo{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* collection part  */
+.collection-title{
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.collections{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+
+}
+.collection{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 60px;
+  height: 480px;
+}
+.collection img{
+  width: 300px;
+  height: 250px;
+}
+.reviwe i{
+  padding: 0;
+}
