@@ -73,3 +73,65 @@ body {
 .reviwe i{
   padding: 0;
 }
+.see-button p{
+  color: red;
+  text-align: end;
+}
+/* featured-products  */
+.feature-section{
+  margin-bottom: 150px;
+}
+.featured-products{
+  display: flex;
+}
+.products-info{
+  width: 50%;
+}
+.products-info img{
+  padding-left: 90px;
+}
+.products-info{
+  margin-right: 100px;
+}
+.products-info a{
+  text-decoration: none;
+  background-color: rgba(224, 44, 109, 1);
+  padding: 10px 24px;
+}
+/* footer part  */
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+.social-icon i{
+  padding: 10px;
+  color: white;
+}
+
+/* responsive layout  */
+
+/* small device  */
+@media only screen and (max-width:672px) {
+  .second-section{
+    display: flex;
+    flex-direction:column;
+    
+  }
+  .collections{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .featured-products{
+    flex-direction: column;
+  }
+}
+/* medieam device  */
+@media only screen and (max-width:990px) {
+  .collections{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
